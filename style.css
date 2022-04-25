@@ -1,0 +1,72 @@
+.nv{
+    background-color: rgb(237, 255, 237);
+}
+
+.banner-image{
+    background-image: url(banner-img.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+.para{
+    text-align: justify;
+    color: rgb(58, 55, 55);
+}
+
+
+
+.text-all{
+    float: right;
+    color:  goldenrod;
+    margin-top: 15px;
+}
+
+.card-title, .card-text, .h{
+    text-align: center;
+}
+
+.btn2{
+    text-align: center;
+}
+
+.middle{
+    
+    margin-top: 35px;
+    
+    position:relative;
+    
+  }
+  
+  .middle::after{
+    content:'';
+    height:5px;
+    width:7%;
+    background:goldenrod;
+    position:absolute;
+    left:calc(47%);
+    bottom:-15px;
+    border-radius: 10px;
+  /*   another way you can achieve this
+    Check this link: 
+    https://goo.gl/GgRdjz
+    
+    */
+    
+  }
+
+.middle{
+    text-align: center;
+    
+}
+
+.hlf1{
+    padding: 20px;
+}
+
+.hlf2{
+    padding: 20px;
+}
+
